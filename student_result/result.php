@@ -53,7 +53,7 @@ function calculateResult($marks)
 }
 
 // Input marks for five subjects
-$marks = array(88, 80, 86, 82, 90); // You can change these values
+$marks = array(88, 80, 86, 82, 90); // 5 subject mark values
 
 // Call the function to calculate result
 calculateResult($marks);
