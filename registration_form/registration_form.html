@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <h2>Registration</h2>
+<!-- Full Name and Username part -->
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="Enter your name">
+                <label for="username">Username</label>
+                <input type="text" placeholder="Enter your username">
+            
+            </div>
+<!-- Email and Phone Number part -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email">
+                <label for="phone">Phone Number</label>
+                <input type="text" placeholder="Enter your number">
+            </div>
+<!-- Password and Confirm Password part -->
+            <div class="form-group">
+                <label for="password" class="m-g">Password</label>
+                <input type="password" placeholder="Enter your password">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" placeholder="Confirm your password">
+            </div>
+<!-- Radio Part -->
+            <div class="form-radio">
+                <label class="radio">Gender</label><br>
+                <input type="radio" name="gender" id="male" value="male"> Male
+                <input type="radio" name="gender" id="female" value="female"> Female
+                <input type="radio" name="gender" id="others" value="others"> Others
+            </div>
+<!--Button Section  -->
+            <div class="button-group">
+                <button type="reset" class="cancel-btn">Cancel</button>
+                <button type="submit" class="submit-btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    
+</body>
+</html>
